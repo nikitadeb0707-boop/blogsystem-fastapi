@@ -32,8 +32,8 @@ class CreateUser(BaseModel):
 
 
 class Token(BaseModel):
-     accesstoken:str
-     tokentype:str
+     access_token:str
+     token_type:str
 
 class TokenData(BaseModel):
      id:Optional[int]=None  
